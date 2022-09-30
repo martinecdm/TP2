@@ -19,6 +19,3 @@ while True:
         appreciation = "bravo !"
         print(var, appreciation)
         break
-
-
-
