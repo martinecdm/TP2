@@ -1,21 +1,18 @@
 import random
 
-nombre = input("Entrez un nombre")
-
-
-n = random.randint(0,100)
-appreciation = "?"
+nbr = random.randint(0,100)
+var = "?"
 while True:
     var = input("Entrez un nombre")
     var = int(var)
-    if var < n :
-        appreciation = "trop bas"
-        print(var, appreciation)
+    if var < nbr :
+        aide = "trop bas"
+        print(var, aide)
 
     else :
-        appreciation = "trop haut"
-        print(var, appreciation)
-    if var == n:
-        appreciation = "bravo !"
-        print(var, appreciation)
+        aide = "trop haut"
+        print(var, aide)
+    if var == nbr:
+        aide = "bravo !"
+        print(var, aide)
         break
